@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background: #fff;
+  background: gray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,9 +14,9 @@ body {
   margin: 0 auto;
 }
 
-/* Big top card */
+
 .big-card {
-  background: #8fd6ff;
+  background: aqua;
   border-radius: 18px;
   padding: 30px;
   position: relative;
@@ -24,10 +24,9 @@ body {
   align-items: center;
   gap: 30px;
   min-height: 250px;
-  flex-wrap: wrap; /* important for mobile stacking */
+  flex-wrap: wrap; 
 }
 
-/* Profile picture circle */
 .avatar {
   width: 160px;
   height: 160px;
@@ -43,7 +42,6 @@ body {
 }
 
 
-/* Bio text */
 .bio {
   color: #333;
   flex: 1;
@@ -61,19 +59,18 @@ body {
   line-height: 1.5;
 }
 
-/* Bottom row */
+
 .bottom {
   margin-top: 20px;
   display: flex;
   gap: 20px;
-  flex-wrap: wrap; /* allow stacking on small screens */
+  flex-wrap: wrap; 
 }
 
-/* Small cards */
 .small-card {
   flex: 1;
-  min-width: 260px; /* ensures they stack neatly */
-  background: #8fd6ff;
+  min-width: 260px; 
+  background: aqua;
   border-radius: 15px;
   padding: 20px;
   text-align: center;
@@ -91,7 +88,6 @@ body {
   color: #333;
 }
 
-/* Responsive adjustments */
 @media (max-width: 600px) {
   .big-card {
     flex-direction: column;
